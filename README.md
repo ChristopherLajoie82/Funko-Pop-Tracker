@@ -1,49 +1,41 @@
-**Funko Pop Tracker Program**
+# Funko Pop Tracker Program
 
-#**Overview**
+## Overview
 
-The Funko Pop Tracker Program is a Python-based application with a graphical user interface (GUI) to help users manage and track their Funko Pop collection. This program allows users to add new Funko Pop figures, view the entire collection, and remove figures they no longer own. The application also calculates the total number and value of the collection.
+The Funko Pop Tracker Program is a Python-based application designed to help users efficiently manage and track their Funko Pop collection. This program allows users to add new Funko Pop figures, view the entire collection, and remove figures they no longer own. The application also calculates the total number and value of the collection.
 
-#**Features**
+## Features
 
-Add Funko Pop: Users can add new Funko Pop figures by providing the name, collection, and price.
+- **Add Funko Pop**: Users can add new Funko Pop figures by providing the name, collection, and price.
+- **View Collection Information**: Displays all Funko Pop figures in the collection, sorted alphabetically, along with their details such as name, collection, and price. Also shows the total number of Funko Pops and the total value of the collection.
+- **Remove Funko Pop**: Allows users to remove a Funko Pop from the collection by selecting it from the displayed list.
 
-View Collection Information: Displays all Funko Pop figures in the collection, sorted alphabetically, along with their details such as name, collection, and price. Also shows the total number of Funko Pops and the total value of the collection.
+## Technologies Used
 
-Remove Funko Pop: Allows users to remove a Funko Pop from the collection by selecting it from the displayed list.
+- **Python**: The primary programming language used for the project.
+- **Tkinter**: A Python library used for creating the graphical user interface.
+- **JSON**: File format used to store the Funko Pop collection data locally.
 
-#**Technologies Used**
+## How It Works
 
-Python: The primary programming language used for the project.
+The Funko Pop Tracker saves the collection to a JSON file (`funko_collection.json`). This ensures that the collection information persists even after the program is closed. Users can interact with the program via a simple and intuitive GUI, with options to add, view, and remove Funko Pops.
 
-Tkinter: A Python library used for creating the graphical user interface.
+## Usage
 
-JSON: File format used to store the Funko Pop collection data locally.
+1. **Add Funko Pop**: Click on the "Add Funko Pop" button, enter the required details (name, collection, price), and click "Add".
+2. **View Collection Information**: Click on the "Collection Information" button to view all saved Funko Pop details, the total number of items, and the total value.
+3. **Remove Funko Pop**: Click on the "Remove Funko Pop" button, view the current collection, and enter the number of the Funko Pop you want to remove.
+4. **Exit**: Click the "Exit" button to close the program.
 
-#**How It Works**
-
-The Funko Pop Tracker saves the collection to a JSON file (funko_collection.json). This ensures that the collection information persists even after the program is closed.
-
-Users can interact with the program via a simple and intuitive GUI, with options to add, view, and remove Funko Pops.
-
-#**Usage**
-
-Add Funko Pop: Click on the "Add Funko Pop" button, enter the required details (name, collection, price), and click "Add".
-
-View Collection Information: Click on the "Collection Information" button to view all saved Funko Pop details, the total number of items, and the total value.
-
-Remove Funko Pop: Click on the "Remove Funko Pop" button, view the current collection, and enter the number of the Funko Pop you want to remove.
-
-Exit: Click the "Exit" button to close the program.
-
-#**Contributing**
+## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for new features, feel free to open an issue or submit a pull request.
 
-#**License**
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-#**Contact**
+## Contact
 
-For any inquiries, suggestions, or issues, please contact Christopher Lajoie at lajoiechristopher82@gmail.com.
+For any inquiries, suggestions, or issues, please contact Christopher Lajoie at [lajoiechristopher82@gmail.com](mailto:lajoiechristopher82@gmail.com).
+
